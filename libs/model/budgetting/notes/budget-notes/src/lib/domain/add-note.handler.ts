@@ -1,5 +1,5 @@
 import { AddNoteToBudgetCommand } from './add-note.command';
-import { FunctionHandler } from '@ngfire/functions'; 
+import { FunctionHandler } from '@ngfi/functions'; 
 import { getRepository } from '@ngfire/functions';
 
 export interface ICommandHandler<TCommand> {
