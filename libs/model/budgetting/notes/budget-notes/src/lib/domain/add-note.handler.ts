@@ -6,5 +6,6 @@ export interface ICommandHandler<TCommand> {
   execute(command: TCommand): Promise<void>;
 }
 
-
-export * from './add-note.command
+export interface AddNoteToBudgetResult {
+  success: boolean;
+}
